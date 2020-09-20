@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52f5e641-e025-41cd-82ba-3f149ab21145" name="Default Changelist" comment="" />
+    <list default="true" id="52f5e641-e025-41cd-82ba-3f149ab21145" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AboutHashTable/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +18,10 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,8 +41,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../learnJDBC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="AboutHashTable" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -49,6 +69,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,VISIBILITY_SORTER" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -61,6 +84,8 @@
       <updated>1600412777339</updated>
       <workItem from="1600412783966" duration="172000" />
       <workItem from="1600413073503" duration="29000" />
+      <workItem from="1600584465346" duration="5568000" />
+      <workItem from="1600599143707" duration="1471000" />
     </task>
     <servers />
   </component>
@@ -72,10 +97,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1600412922164" />
-    <state x="422" y="100" key="FileChooserDialogImpl" timestamp="1600413100364">
+    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1600585929903">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600413100364" />
+    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1600585929903" />
+    <state x="422" y="100" key="FileChooserDialogImpl" timestamp="1600600744051">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1600600744051" />
     <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1600412957887">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -92,9 +121,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1600412957887" />
-    <state x="338" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1600413029561">
+    <state x="338" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1600599147876">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="338" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600413029561" />
+    <state x="338" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600599147876" />
+    <state x="440" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600600781405">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="440" y="260" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1600600781405" />
+    <state x="94" y="94" width="1093" height="493" key="dock-window-1" timestamp="1600599151416">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="94" y="94" width="1093" height="493" key="dock-window-1/0.0.1280.680@0.0.1280.680" timestamp="1600599151416" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1600599208467">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1600599208467" />
   </component>
 </project>
