@@ -1,34 +1,23 @@
-package Queue;
+import java.util.ArrayList;
 
-public class ArrayQueue<E> {
-    private E[] array ;
+public class Test<E> {
+    private E[] array;
+    private int last = 0;
+    private int first = 0;
     private int capacity;
-    /**
-     * enqueue position
-     */
-    private int first;
-
-    /**
-     * dequeue position
-     */
-    private int last;
     private final int DEFAULT_CAPACITY = 10;
 
-    public int getCapacity() {
-        return capacity;
-    }
-
-    public ArrayQueue() {
+    public Test() {
         this.capacity = DEFAULT_CAPACITY;
-        array = (E[]) new Object[capacity];
+        this.array = (E[]) new Object[capacity];
     }
 
-    public ArrayQueue(int capacity) {
+    public Test(int capacity) {
         this.capacity = capacity;
-        array = (E[]) new Object[capacity];
+        this.array = (E[]) new Object[capacity];
     }
 
-    public boolean enque(E e) throws InterruptedException {
+    public boolean enque(E e) {
         if (last == capacity) {
             if (first != 0) {
                 update();
@@ -51,6 +40,14 @@ public class ArrayQueue<E> {
         last = j;
     }
 
+    public static void main(String[] args) {
+        int[] a = new int[10];
+        a[0] = 1;
+        System.out.println(a.length);
+//        ArrayList<String> list = new ArrayList<>();
+//        list.add("a");
+//        list.add(2, "b");
 
+    }
 
 }

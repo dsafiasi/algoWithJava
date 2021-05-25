@@ -1,11 +1,9 @@
-package List;
+    package List;
 
-public class ILinkedList<T> {
-
+    public class ILinkedList<T> {
     private int count;
     private Node<T> head;
     private Node<T> tail;
-
 
     // 增删改查
 
@@ -33,7 +31,7 @@ public class ILinkedList<T> {
         count++;
     }
 
-//    public void add
+    //    public void add
 
     // 默认删除末尾
     public boolean remove() {
@@ -76,16 +74,16 @@ public class ILinkedList<T> {
     }
 
 
-//    public int indexOf(T value) {
-//        int index = 0;
-//        Node node = head;
-//        while (node != null) {
-//            if (value.equals(node.value)) break;
-//            node = node.next;
-//        }
-//        return node;
-//
-//    }
+    //    public int indexOf(T value) {
+    //        int index = 0;
+    //        Node node = head;
+    //        while (node != null) {
+    //            if (value.equals(node.value)) break;
+    //            node = node.next;
+    //        }
+    //        return node;
+    //
+    //    }
 
 
     public Node<T> getNodeByIndex(int index) {
@@ -117,8 +115,6 @@ public class ILinkedList<T> {
         return node;
     }
 
-
-
     class Node <T> {
         Node<T> prev;
         Node<T> next;
@@ -140,9 +136,9 @@ public class ILinkedList<T> {
             sb.append(node.value+",");
             node = node.next;
         }
-//        sb.deleteCharAt(sb.length()-1);
-//        sb.delete(sb.length()-1);
-//        sb.deleteCharAt(sb.lastIndexOf(","));
+    //        sb.deleteCharAt(sb.length()-1);
+    //        sb.delete(sb.length()-1);
+    //        sb.deleteCharAt(sb.lastIndexOf(","));
         System.out.println(sb);
     }
 
@@ -162,4 +158,4 @@ public class ILinkedList<T> {
 
 
 
-}
+    }
