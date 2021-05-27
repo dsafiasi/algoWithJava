@@ -29,8 +29,7 @@ public class IArrayList<T> {
   }
 
   public boolean contains(T element) {
-    if (indexOf(element) != -1) return true;
-    return false;
+    return indexOf(element) >= 0;
   }
   public int indexOf(T element) {
     for (int i = 0; i < size; i++) {

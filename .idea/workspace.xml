@@ -2,61 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f5e641-e025-41cd-82ba-3f149ab21145" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/List/IArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sorts/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sorts/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Sorts/SelectSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/List/Array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/List/GenericArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/List/IArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/List/IArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/List/ILinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/List/ILinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/IArrayBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queue/IArrayBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queue/LinkedListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SkipList/SkipList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SkipList/SkipList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Sorts/SortDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/CombinedTotal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/DoubleLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/DoubleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/GenericArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/ILinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/LRUBaseLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/LRUBaseLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/LinkedListAlgo$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/LinkedListAlgo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/LoopLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/SingleLinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/SingleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutList/SortedLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutMap/HashTable$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutMap/HashTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutMap/Map$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutMap/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutMap/TestHash.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutQueue/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutQueue/CircularQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutQueue/IArrayBlockingQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutQueue/QueueBasedOnLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutRecursion/FibLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutRecursion/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutRecursion/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutRecursion/Reward.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutSkipList/SkipList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutSkipList/SkipList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutSorts/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutSorts/SortDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutTree/BinarySearchTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutTree/BinarySearchTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutTree/BinaryTreeBaseArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutTree/BinaryTreeBaseNode$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutTree/BinaryTreeBaseNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutTree/LevelOrderTraversal$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutTree/LevelOrderTraversal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutTree/RBTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AboutTree/RBTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/GenericArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/IArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/IArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/ILinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/ILinkedList$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/List/ILinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/ILinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +78,7 @@
       <recent name="AboutHashTable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IArrayList">
+  <component name="RunManager" selected="Application.ILinkedList">
     <configuration name="IArrayBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Queue.IArrayBlockingQueue" />
       <module name="algoWithJava" />
@@ -152,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.LinkedListQueue" />
+    <configuration name="ILinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="List.ILinkedList" />
       <module name="algoWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="List.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.MergeSort" />
+    <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Queue.LinkedListQueue" />
       <module name="algoWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ILinkedList" />
         <item itemvalue="Application.IArrayList" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.IArrayBlockingQueue" />
         <item itemvalue="Application.LinkedListQueue" />
-        <item itemvalue="Application.MergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -261,6 +214,8 @@
       <workItem from="1621338525349" duration="156000" />
       <workItem from="1621433747600" duration="389000" />
       <workItem from="1621939677375" duration="5456000" />
+      <workItem from="1622096832648" duration="4529000" />
+      <workItem from="1622112740073" duration="5053000" />
     </task>
     <servers />
   </component>
@@ -268,10 +223,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1621433934107">
+    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1622099373416">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1621433934107" />
+    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1622099373416" />
     <state x="372" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617968153547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -284,22 +239,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618713001739" />
-    <state width="1237" height="30" key="GridCell.Tab.0.bottom" timestamp="1621945170588">
+    <state width="1237" height="137" key="GridCell.Tab.0.bottom" timestamp="1622117648800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="30" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621945170588" />
-    <state width="1237" height="30" key="GridCell.Tab.0.center" timestamp="1621945170588">
+    <state width="1237" height="137" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622117648800" />
+    <state width="1237" height="137" key="GridCell.Tab.0.center" timestamp="1622117648800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="30" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1621945170588" />
-    <state width="1237" height="30" key="GridCell.Tab.0.left" timestamp="1621945170588">
+    <state width="1237" height="137" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622117648800" />
+    <state width="1237" height="137" key="GridCell.Tab.0.left" timestamp="1622117648799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="30" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1621945170588" />
-    <state width="1237" height="30" key="GridCell.Tab.0.right" timestamp="1621945170588">
+    <state width="1237" height="137" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622117648799" />
+    <state width="1237" height="137" key="GridCell.Tab.0.right" timestamp="1622117648800">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="30" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1621945170588" />
+    <state width="1237" height="137" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622117648800" />
     <state width="1237" height="206" key="GridCell.Tab.1.bottom" timestamp="1616761905430">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -320,10 +275,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="143" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1621338633208" />
-    <state x="338" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1621939676111">
+    <state x="338" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1622112739056">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="338" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1621939676111" />
+    <state x="338" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622112739056" />
     <state x="94" y="94" width="1093" height="493" key="dock-window-1" timestamp="1621942816799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -336,9 +291,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="94" y="94" width="1093" height="493" key="dock-window-3/0.0.1280.680@0.0.1280.680" timestamp="1618030146065" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1621434041853">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1622098390219">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1621434041853" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1622098390219" />
   </component>
 </project>
