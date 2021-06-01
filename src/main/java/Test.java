@@ -1,53 +1,39 @@
-import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.Map;
 
-public class Test<E> {
-    private E[] array;
-    private int last = 0;
-    private int first = 0;
-    private int capacity;
-    private final int DEFAULT_CAPACITY = 10;
+public class Test {
 
-    public Test() {
-        this.capacity = DEFAULT_CAPACITY;
-        this.array = (E[]) new Object[capacity];
+  public void extend() { }
+  public void testF() {
+    System.out.println("abstract");
+    extend();
+  }
+
+
+  public static void main(String[] args) {
+    // accessOrder = true, 类似于get的访问操作会改变node的顺序
+    // accessOrder = false, 顺序只与插入顺序相关
+
+    LinkedHashMap<String, String> linkedHashMap = new LinkedHashMap<String, String>(
+        16, 0.75f, false){
+      @Override
+      protected boolean removeEldestEntry(Map.Entry eldest) {
+        return size()>3;
+      }
+    };
+
+    linkedHashMap.put("1", "1");
+    linkedHashMap.put("2", "2");
+    linkedHashMap.put("3", "3");
+
+    linkedHashMap.get("1");
+    linkedHashMap.get("2");
+    linkedHashMap.put("4", "4");
+    for (Map.Entry entry : linkedHashMap.entrySet()) {
+      System.out.println(entry.getKey() + " : " + entry.getValue());
     }
 
-    public Test(int capacity) {
-        this.capacity = capacity;
-        this.array = (E[]) new Object[capacity];
-    }
 
-    public boolean enque(E e) {
-        if (last == capacity) {
-            if (first != 0) {
-                update();
-            } else return false;
-        }
-        array[last++] = e;
-        return true;
-    }
-
-    public E deque() {
-        if (first == last) return null;
-        return array[first++];
-    }
-    private void update() {
-        int j = 0;
-        for (int i = first; i < last; i++) {
-            array[j++] = array[i];
-        }
-        first = 0;
-        last = j;
-    }
-
-    public static void main(String[] args) {
-        int[] a = new int[10];
-        a[0] = 1;
-        System.out.println(a.length);
-//        ArrayList<String> list = new ArrayList<>();
-//        list.add("a");
-//        list.add(2, "b");
-
-    }
-
+  }
 }

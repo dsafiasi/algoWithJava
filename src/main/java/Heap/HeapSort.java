@@ -1,61 +1,67 @@
 package Heap;
 
+import java.util.Arrays;
 
 public class HeapSort {
-    public static void sort(int[] arr) {
-        if (arr.length <= 1) return;
-        // 1. 建堆
-        buildHeap(arr);
-        // 2. 排序
-        int n = arr.length-1;
-        while (n > 0) {
-            swap(arr, 0, n);
-            heapify(arr, --n, 0);
-        }
+  public static void heapSort(int[] a) {
+    // 建堆
+    buildHeap(a);
+
+    // 排序
+    sort(a);
+  }
+
+
+  private static void sort(int[] a) {
+    for (int i = a.length-1; i >= 0; i--) {
+      swap(a, 0, i);
+      heapify(a, 0, i-1);
     }
+  }
 
-    /**
-     * 自上而下堆化
-     *
-     * @param arr
-     * @param n 最后堆元素的下标
-     * @param i 要堆化的元素的下标
-     */
-    private static void heapify(int[] arr, int n, int i) {
-        while (true) {
-            int maxPos = i;
 
-            if (i * 2 + 1 <= n && arr[i] < arr[i * 2 + 1]) {
-                maxPos = i * 2 + 1;
-            }
-            if (i * 2 + 2 <= n && arr[maxPos] < arr[i * 2 + 2]) {
-                maxPos = i * 2 + 2;
-            }
-            if (maxPos == i) break;
-            swap(arr, i, maxPos);
-
-            i = maxPos;
-        }
+  /**
+   * 建堆: 将每个非叶子节点进行自下而上堆化
+   * 数组从下标0开始，因此, a.length-1-1 / 2 为最后一个叶子节点的父节点
+   * @param a
+   */
+  private static void buildHeap(int[] a) {
+    for (int i = (a.length-2)/2; i >= 0; i--) {
+      heapify(a, i, a.length-1);
     }
+  }
 
-    private static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
+  /**
+   * 自上而下堆化
+   */
+  private static void heapify(int[] a, int index, int n) {
+    while (true) {
+      int maxPos = index;
+      if (2*index+1 <= n && a[index] < a[2*index+1]) {
+        maxPos = 2*index+1;
+      }
 
-    private static void buildHeap(int[] arr) {
-        for (int i = (arr.length-1)/2; i >= 0; i--) {
-            heapify(arr, arr.length-1, i);
-        }
-    }
+      if (2*index+2 <= n && a[maxPos] < a[2*index+2]) {
+        maxPos = 2*index+2;
+      }
 
-    public static void main(String[] args) {
-        int[] arr = {-11,0,6,2,4,1,7,8,9,11,241,41431,5353};
-        HeapSort.sort(arr);
-        for (int i : arr) {
-            System.out.print(i + "、");
-        }
+      if (maxPos == index) break;
+      swap(a, index, maxPos);
+      index = maxPos;
     }
+  }
+
+  private static void swap(int[] a, int i, int j) {
+    int temp = a[i];
+    a[i] = a[j];
+    a[j] = temp;
+  }
+
+  public static void main(String[] args) {
+    int[] a = {3,4,1,6,10,7,9,2,1};
+    heapSort(a);
+    System.out.println(Arrays.toString(a));
+  }
+
 
 }

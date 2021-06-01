@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f5e641-e025-41cd-82ba-3f149ab21145" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Map/IHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/List/IArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/List/IArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/List/ILinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/List/ILinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/List/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/List/GenericArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/List/IArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/IArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/HeapElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heap/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/MaxHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map/HashTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map/Map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/TreeAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/TreeAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Heap/HeapElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Heap/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Heap/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Heap/MaxHeap.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/List/ILinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/ILinkedList$Node.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/List/ILinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/ILinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Map/HashTable$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Map/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Map/Map$Entry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Map/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Queue/ArrayQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tree/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/BinarySearchTree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/BinarySearchTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tree/TreeAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/TreeAlgo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +97,13 @@
       <recent name="AboutHashTable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ILinkedList">
-    <configuration name="IArrayBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.IArrayBlockingQueue" />
+  <component name="RunManager" selected="Application.BinarySearchTree">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.BinarySearchTree" />
       <module name="algoWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List.IArrayList" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.HeapSort" />
       <module name="algoWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="List.*" />
+          <option name="PATTERN" value="Heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,25 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ILinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="List.ILinkedList" />
+    <configuration name="IHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Map.IHashMap" />
       <module name="algoWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Queue.LinkedListQueue" />
-      <module name="algoWithJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
+          <option name="PATTERN" value="Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,13 +144,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <module name="algoWithJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ILinkedList" />
-        <item itemvalue="Application.IArrayList" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.Test1" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.IArrayBlockingQueue" />
-        <item itemvalue="Application.LinkedListQueue" />
+        <item itemvalue="Application.IHashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +228,11 @@
       <workItem from="1621433747600" duration="389000" />
       <workItem from="1621939677375" duration="5456000" />
       <workItem from="1622096832648" duration="4529000" />
-      <workItem from="1622112740073" duration="5053000" />
+      <workItem from="1622112740073" duration="5514000" />
+      <workItem from="1622118698387" duration="867000" />
+      <workItem from="1622284387490" duration="8443000" />
+      <workItem from="1622447559808" duration="5792000" />
+      <workItem from="1622457898883" duration="2216000" />
     </task>
     <servers />
   </component>
@@ -223,62 +240,62 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1622099373416">
+    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser" timestamp="1622458344773">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1622099373416" />
+    <state x="447" y="61" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1622458344773" />
     <state x="372" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617968153547">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="372" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1617968153547" />
-    <state x="525" y="87" key="#xdebugger.evaluate" timestamp="1616744790995">
+    <state x="389" y="87" key="#xdebugger.evaluate" timestamp="1622459749445">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="525" y="87" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1616744790995" />
+    <state x="389" y="87" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1622459749445" />
     <state x="422" y="100" key="FileChooserDialogImpl" timestamp="1618713001739">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618713001739" />
-    <state width="1237" height="137" key="GridCell.Tab.0.bottom" timestamp="1622117648800">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1622460079365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622117648800" />
-    <state width="1237" height="137" key="GridCell.Tab.0.center" timestamp="1622117648800">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1622460079365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622117648800" />
-    <state width="1237" height="137" key="GridCell.Tab.0.left" timestamp="1622117648799">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1622460079365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622117648799" />
-    <state width="1237" height="137" key="GridCell.Tab.0.right" timestamp="1622117648800">
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1622460079365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622117648800" />
-    <state width="1237" height="206" key="GridCell.Tab.1.bottom" timestamp="1616761905430">
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1622460079365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="206" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1616761905430" />
-    <state width="1237" height="206" key="GridCell.Tab.1.center" timestamp="1616761905430">
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
+    <state width="1237" height="2" key="GridCell.Tab.1.center" timestamp="1622460079365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="206" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1616761905430" />
-    <state width="1237" height="206" key="GridCell.Tab.1.left" timestamp="1616761905430">
+    <state width="1237" height="2" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
+    <state width="1237" height="2" key="GridCell.Tab.1.left" timestamp="1622460079365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="206" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1616761905430" />
-    <state width="1237" height="206" key="GridCell.Tab.1.right" timestamp="1616761905430">
+    <state width="1237" height="2" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
+    <state width="1237" height="2" key="GridCell.Tab.1.right" timestamp="1622460079365">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="206" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1616761905430" />
+    <state width="1237" height="2" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
     <state x="143" y="0" key="SettingsEditor" timestamp="1621338633208">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="143" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1621338633208" />
-    <state x="338" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1622112739056">
+    <state x="338" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1622457897917">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="338" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622112739056" />
+    <state x="338" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622457897917" />
     <state x="94" y="94" width="1093" height="493" key="dock-window-1" timestamp="1621942816799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -291,9 +308,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="94" y="94" width="1093" height="493" key="dock-window-3/0.0.1280.680@0.0.1280.680" timestamp="1618030146065" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1622098390219">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1622284427008">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1622098390219" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1622284427008" />
   </component>
 </project>

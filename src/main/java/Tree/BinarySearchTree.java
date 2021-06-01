@@ -1,7 +1,6 @@
 package Tree;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class BinarySearchTree {
     private Node root ;
@@ -102,7 +101,6 @@ public class BinarySearchTree {
             root = new Node(value, null, null);
             return;
         }
-
         insert(root, value);
     }
     private void insert(Node fatherNode, int value) {
@@ -121,6 +119,34 @@ public class BinarySearchTree {
         }
     }
 
+    static class Utils {
+        public static String bfs(Node root) {
+            StringBuilder sb = new StringBuilder();
+            Queue<Node> queue = new LinkedList();
+            queue.offer(root);
+            while (! queue.isEmpty()) {
+                Node node = queue.poll();
+                if (node.left != null) queue.offer(node.left);
+                if (node.right != null) queue.offer(node.right);
+                sb.append(node.value+"、");
+            }
+            return sb.toString();
+        }
+        // 搜索,非遍历
+        public static String dfs(Node root) {
+            StringBuilder sb = new StringBuilder();
+            LinkedList<Node> stack = new LinkedList<>();
+            stack.push(root);
+            while (! stack.isEmpty()) {
+                Node node = stack.pop();
+                sb.append(node.value+"、");
+                if (node.right != null) stack.push(node.right);
+                if (node.left != null) stack.push(node.left);
+            }
+            return sb.toString();
+        }
+
+    }
 
 
     class Node {
@@ -136,27 +162,16 @@ public class BinarySearchTree {
     }
 
     public static void main(String[] args) {
-        BinarySearchTree b = new BinarySearchTree();
-        b.insert(10);
-        b.insert(11);
-        b.insert(12);
-        b.insert(9);
-        b.insert(2);
-        b.insert(3);
-        b.insert(17);
-//        List inorderResult = b.inOrder();
-//        System.out.println(b.preOrder());
-        System.out.println(b.postOrder());
-
-//        for (i : inorderResult) {
-//            System.out.println();
-//        }
-//        System.out.println(inorderResult);
-//        Node node_10 = b.find(10);
-//        System.out.println(node_10.value);
-//        System.out.println(b.find(11).value);
-
-//        System.out.println(b.find(10).value);
+        BinarySearchTree tree = new BinarySearchTree();
+        tree.insert(10);
+        tree.insert(11);
+        tree.insert(12);
+        tree.insert(9);
+        tree.insert(2);
+        tree.insert(3);
+        tree.insert(17);
+        System.out.println("bfs: " + BinarySearchTree.Utils.bfs(tree.root));
+//        System.out.println("dfs: " + BinarySearchTree.Utils.dfs(tree.root));
 
 
     }
