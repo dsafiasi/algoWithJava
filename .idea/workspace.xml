@@ -2,38 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f5e641-e025-41cd-82ba-3f149ab21145" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Map/IHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sorts/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sorts/CountingSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Sorts/MergeSort1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/HeapElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heap/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Heap/MaxHeap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Map/HashTable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Map/Map.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Queue/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/TreeAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/TreeAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Heap/HeapElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Heap/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Heap/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Heap/MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/List/ILinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/ILinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/List/ILinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/List/ILinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Map/HashTable$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Map/HashTable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Map/Map$Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Map/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Queue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tree/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/BinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tree/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Tree/TreeAlgo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/TreeAlgo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Map/IHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Map/IHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Sorts/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Sorts/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Map/IHashMap$Entry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Map/IHashMap$Entry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Map/IHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Map/IHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Sorts/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Sorts/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="171" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -97,7 +84,7 @@
       <recent name="AboutHashTable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
+  <component name="RunManager" selected="Application.CountingSort">
     <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.BinarySearchTree" />
       <module name="algoWithJava" />
@@ -111,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Heap.HeapSort" />
+    <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorts.BucketSort" />
       <module name="algoWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Heap.*" />
+          <option name="PATTERN" value="Sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map.IHashMap" />
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorts.CountingSort" />
       <module name="algoWithJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Map.*" />
+          <option name="PATTERN" value="Sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,9 +124,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="MergeSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sorts.MergeSort1" />
       <module name="algoWithJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchTree" />
-        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.BucketSort" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.IHashMap" />
+        <item itemvalue="Application.MergeSort1" />
+        <item itemvalue="Application.BinarySearchTree" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +225,9 @@
       <workItem from="1622118698387" duration="867000" />
       <workItem from="1622284387490" duration="8443000" />
       <workItem from="1622447559808" duration="5792000" />
-      <workItem from="1622457898883" duration="2216000" />
+      <workItem from="1622457898883" duration="2927000" />
+      <workItem from="1622611270450" duration="4551000" />
+      <workItem from="1622631020995" duration="5046000" />
     </task>
     <servers />
   </component>
@@ -256,46 +251,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618713001739" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1622460079365">
+    <state width="1237" height="318" key="GridCell.Tab.0.bottom" timestamp="1622636984123">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1622460079365">
+    <state width="1237" height="318" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622636984123" />
+    <state width="1237" height="318" key="GridCell.Tab.0.center" timestamp="1622636984123">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1622460079365">
+    <state width="1237" height="318" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1622636984123" />
+    <state width="1237" height="318" key="GridCell.Tab.0.left" timestamp="1622636984123">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1622460079365">
+    <state width="1237" height="318" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1622636984123" />
+    <state width="1237" height="318" key="GridCell.Tab.0.right" timestamp="1622636984123">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
-    <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1622460079365">
+    <state width="1237" height="318" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1622636984123" />
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom" timestamp="1622536958751">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
-    <state width="1237" height="2" key="GridCell.Tab.1.center" timestamp="1622460079365">
+    <state width="1237" height="2" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1622536958751" />
+    <state width="1237" height="2" key="GridCell.Tab.1.center" timestamp="1622536958751">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
-    <state width="1237" height="2" key="GridCell.Tab.1.left" timestamp="1622460079365">
+    <state width="1237" height="2" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1622536958751" />
+    <state width="1237" height="2" key="GridCell.Tab.1.left" timestamp="1622536958751">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
-    <state width="1237" height="2" key="GridCell.Tab.1.right" timestamp="1622460079365">
+    <state width="1237" height="2" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1622536958751" />
+    <state width="1237" height="2" key="GridCell.Tab.1.right" timestamp="1622536958751">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1622460079365" />
+    <state width="1237" height="2" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1622536958751" />
     <state x="143" y="0" key="SettingsEditor" timestamp="1621338633208">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="143" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1621338633208" />
-    <state x="338" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1622457897917">
+    <state x="338" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1622631018780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="338" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622457897917" />
+    <state x="338" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1622631018780" />
     <state x="94" y="94" width="1093" height="493" key="dock-window-1" timestamp="1621942816799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -308,9 +303,12 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="94" y="94" width="1093" height="493" key="dock-window-3/0.0.1280.680@0.0.1280.680" timestamp="1618030146065" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1622284427008">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1622635197486">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1622284427008" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1622635197486" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algoWithJava$Test1.ic" NAME="Test1 Coverage Results" MODIFIED="1622631574194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

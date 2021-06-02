@@ -1,7 +1,5 @@
 package Map;
 
-import java.util.HashMap;
-
 public class IHashMap<K,V> {
   private Entry<K,V> table[];
   private final static int DEFAULT_CAPACITY = 16;
