@@ -7,8 +7,10 @@ public class Test1 extends Test {
   }
 
   public static void main(String[] args) {
-    System.out.println(2/2);
-    System.out.println(2%2);
+    System.out.println(123/10%10);
+
+//    System.out.println(2/2);
+//    System.out.println(2%2);
 
 
   }
